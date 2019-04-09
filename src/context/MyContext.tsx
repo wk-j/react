@@ -29,6 +29,7 @@ export class MyContext extends React.Component<{}, State> {
     render() {
         return (
             <div>
+                <h1>Context</h1>
                 <Provider value={this.state.data}>
                     <h1 onClick={this.click}>Provider {this.state.data.a}</h1>
                     <Comp1 />

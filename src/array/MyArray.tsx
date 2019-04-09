@@ -51,14 +51,15 @@ export class MyArray extends React.Component<{}, State> {
 
     render() {
         return (
-            <h1>
+            <div>
+                <h1>Array</h1>
                 {this.state.infos.map(x =>
                     <div key={x.index}>
                         <span onClick={this.onAClick(x)}>(A)</span>
                         <span onClick={this.onBClick(x)}>(B)</span>
                         <span> {x.a}-{x.b}</span>
                     </div>)}
-            </h1>
+            </div>
         )
     }
 }

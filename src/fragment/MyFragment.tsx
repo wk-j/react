@@ -14,6 +14,7 @@ export class MyFragment extends React.Component {
 
         return (
             <div>
+                <h1>Fragment</h1>
                 {el1}
                 {el2}
             </div>

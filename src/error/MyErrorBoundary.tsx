@@ -24,6 +24,7 @@ export class MyErrorBoundary extends React.Component<{}, State> {
     render() {
         return (
             <div>
+                <h1>Error</h1>
                 <div onClick={this.click}>Click</div>
                 <h1>{this.state.error}</h1>
             </div>
