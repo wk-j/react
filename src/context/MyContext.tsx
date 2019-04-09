@@ -45,8 +45,8 @@ class Comp1 extends React.Component<{}, {}> {
                 {
                     ({ a, b }) =>
                         <div>
-                            <div>{a}</div>
-                            <div>{b}</div>
+                            <div>C {a}</div>
+                            <div>C {b}</div>
                             <Comp2 />
                         </div>
                 }
@@ -62,8 +62,8 @@ class Comp2 extends React.Component {
                 {
                     ({ a, b }) =>
                         <div>
-                            <div>{a}</div>
-                            <div>{b}</div>
+                            <div>C {a}</div>
+                            <div>C {b}</div>
                         </div>
                 }
             </Consumer>

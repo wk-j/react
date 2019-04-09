@@ -12,6 +12,9 @@ export class Menu extends React.Component {
                 <div>
                     <a href="#/array">Array</a>
                 </div>
+                <div>
+                    <a href="#/error">Error</a>
+                </div>
             </div>
         )
     }

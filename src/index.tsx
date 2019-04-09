@@ -6,6 +6,7 @@ import { MyFragment } from "./fragment/MyFragment";
 import { MyContext } from "./context/MyContext";
 import { MyHome } from "./home/MyHome";
 import { MyArray } from "./array/MyArray";
+import { MyErrorBoundary } from "./error/MyErrorBoundary";
 
 class App extends React.Component {
     render() {
@@ -19,6 +20,7 @@ class App extends React.Component {
                             <Route exact path="/array" component={MyArray} />
                             <Route exact path="/fragment" component={MyFragment} />
                             <Route exact path="/context" component={MyContext} />
+                            <Route exact path="/error" component={MyErrorBoundary} />
                         </div>
                     </Switch>
                 </Router>

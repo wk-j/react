@@ -35,10 +35,7 @@ export class MyArray extends React.Component<{}, State> {
         var infos = this.state.infos
         var newInfos = [
             ...infos.slice(0, index),
-            {
-                ...infos[index],
-                [key]: value
-            },
+            { ...infos[index], [key]: value },
             ...infos.slice(index + 1)
         ];
         this.setState({ infos: newInfos })
