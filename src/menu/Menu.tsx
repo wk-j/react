@@ -7,6 +7,9 @@ export class Menu extends React.Component {
                     <a href="#/context">Context</a>
                 </div>
                 <div>
+                    <a href="#/static-context">Static Context</a>
+                </div>
+                <div>
                     <a href="#/fragment">Fragment</a>
                 </div>
                 <div>

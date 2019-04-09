@@ -7,6 +7,7 @@ import { MyContext } from "./context/MyContext";
 import { MyHome } from "./home/MyHome";
 import { MyArray } from "./array/MyArray";
 import { MyErrorBoundary } from "./error/MyErrorBoundary";
+import { MyStaticContext } from "./static-context/MyStaticContext";
 
 class App extends React.Component {
     render() {
@@ -21,6 +22,7 @@ class App extends React.Component {
                             <Route exact path="/fragment" component={MyFragment} />
                             <Route exact path="/context" component={MyContext} />
                             <Route exact path="/error" component={MyErrorBoundary} />
+                            <Route exact path="/static-context" component={MyStaticContext} />
                         </div>
                     </Switch>
                 </Router>
