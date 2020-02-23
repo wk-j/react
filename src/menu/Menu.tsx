@@ -21,6 +21,9 @@ export class Menu extends React.Component {
                 <div>
                     <a href="#/code-spliting">Code Spliting</a>
                 </div>
+                <div>
+                    <a href="#/hook">Hook</a>
+                </div>
             </div>
         )
     }
