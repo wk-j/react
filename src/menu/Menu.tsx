@@ -18,6 +18,9 @@ export class Menu extends React.Component {
                 <div>
                     <a href="#/error">Error</a>
                 </div>
+                <div>
+                    <a href="#/code-spliting">Code Spliting</a>
+                </div>
             </div>
         )
     }

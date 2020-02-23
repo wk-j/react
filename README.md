@@ -9,6 +9,7 @@ open http://localhost:1234
 - [x] Context
 - [ ] Error boundaries
 - [x] Fragment
+- [x] Code spliting
 
 
 ```bash

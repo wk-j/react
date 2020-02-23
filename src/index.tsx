@@ -8,6 +8,7 @@ import { MyHome } from "./home/MyHome";
 import { MyArray } from "./array/MyArray";
 import { MyErrorBoundary } from "./error/MyErrorBoundary";
 import { MyStaticContext } from "./static-context/MyStaticContext";
+import { MyCodeSpliting } from "./code-spliting/MyCodeSpliting";
 
 class App extends React.Component {
     render() {
@@ -23,6 +24,7 @@ class App extends React.Component {
                             <Route exact path="/context" component={MyContext} />
                             <Route exact path="/error" component={MyErrorBoundary} />
                             <Route exact path="/static-context" component={MyStaticContext} />
+                            <Route exact path="/code-spliting" component={MyCodeSpliting} />
                         </div>
                     </Switch>
                 </Router>

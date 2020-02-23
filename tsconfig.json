@@ -2,7 +2,7 @@
     "compilerOptions": {
         "jsx": "react",
         "moduleResolution": "node",
-        "module": "commonjs",
+        "module": "esnext",
         "target": "es6",
         "esModuleInterop": true,
         "lib": [
